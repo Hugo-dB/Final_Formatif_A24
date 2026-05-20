@@ -30,7 +30,6 @@
     <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
     <Folder Include="Exceptions\" />
   </ItemGroup>
 </Project>

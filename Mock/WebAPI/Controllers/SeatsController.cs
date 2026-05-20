@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
 
         // POST: api/Seats/4
         [HttpGet("{seatNumber:int}")]
-        public ActionResult<Seat> ReserveSeat(int seatNumber)
+        public virtual ActionResult<Seat> ReserveSeat(int seatNumber)
         {
             try
             {
